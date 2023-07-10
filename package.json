@@ -1,0 +1,26 @@
+{
+  "name": "signalk-marinwiki",
+  "version": "0.0.1",
+  "description": "Send data from SignalK to Marinwiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "Marcus Rejås <marcus@rejas.se> (https://blog.rejas.se)",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "Marinwiki"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrejas/signalk-marinwiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrejas/signalk-marinwiki/issues"
+  },
+  "homepage": "https://github.com/mrejas/signalk-marinwiki#readme"
+}
