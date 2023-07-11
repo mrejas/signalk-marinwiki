@@ -69,6 +69,7 @@ function sendToMarinwiki(config, mdata) {
 			}
   		})
   		.catch(err => {
+			addToCache(mdata);
     			console.error(err)
   		})
 }
